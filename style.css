@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+    width: 100%;
+}
+
+.hero-section .navbar {
+    width: 100%;
+    padding: 1rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C0BBBD;
+}
+
+.hero-section .navbar img {
+    width: 150px;
+    object-fit: cover;
+}
+
+.hero-section .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-section .navbar ul li {
+    padding: 10px 20px;
+    list-style: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.hero-section .navbar ul li a {
+    text-decoration: none;
+}
+
+.hero-section .hero-image {
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section .hero-image img {
+    width: 100%;
+    margin: auto;
+    object-fit: contain;
+    height: auto;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 4rem;
+    width: 100%;
+    background-color: #C0BBBD;
+
+
+}
+
+.bottom .right {
+    width: 44%;
+    display: flex;
+    align-items: center;
+    margin-bottom: -5rem;
+    justify-content: flex-end;
+}
+
+.bottom .left {
+    width: 50%;
+}
+
+.bottom .left .title{
+    font-size: 18px;
+}
+
+.bottom .left .description{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.bottom .left h2 {
+    color: red;
+    line-height: 60px;
+}
+
+.bottom .right img {
+    width: 80%;
+}
+
+.footer {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 4rem;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #9B9D16;
+
+}
+
+.footer .footer-card {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+}
+
+.footer .footer-card img {
+    width: 70px;
+}
